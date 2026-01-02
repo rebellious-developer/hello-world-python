@@ -56,12 +56,14 @@ branch 'main' set up to track 'origin/main'.
 6. Setup a basic `copilot-instructions.md` file for this project (because I like to use Co-Pilot on all projects for code assistance)
 
 7. Added a bare minimum basic Python project structure for such a simple app:
+```
 .gitignore
 .python-version
 requirements.txt
 hello_world.py
+```
 
-8. Committed and pushed all my changes:
+9. Committed and pushed all my changes:
 ```bash
 git add .
 git commit -m "Updated README plus foundation files"
